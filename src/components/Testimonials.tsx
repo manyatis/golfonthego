@@ -52,7 +52,7 @@ export default function Testimonials() {
             What Our Customers Say
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Join satisfied customers who've made their events unforgettable
+            Join satisfied customers who&apos;ve made their events unforgettable
           </p>
         </div>
 
@@ -86,7 +86,7 @@ export default function Testimonials() {
               </div>
 
               <p className="text-gray-600 italic">
-                "{testimonial.content}"
+                &ldquo;{testimonial.content}&rdquo;
               </p>
             </div>
           ))}

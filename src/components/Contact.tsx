@@ -59,7 +59,7 @@ ${formData.name}`)
               Ready to Book Your Event?
             </h2>
             <p className="text-lg sm:text-xl text-gray-600 mb-8 leading-relaxed">
-              Fill out the form and we'll get back to you within 24 hours to discuss your perfect golf entertainment package.
+              Fill out the form and we&apos;ll get back to you within 24 hours to discuss your perfect golf entertainment package.
             </p>
 
             <div className="space-y-6 mb-8">

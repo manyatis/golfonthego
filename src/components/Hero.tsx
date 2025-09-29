@@ -1,10 +1,6 @@
 'use client'
 
-import { useState } from 'react'
-
 export default function Hero() {
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false)
-
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-golf-green via-golf-light-green to-golf-green opacity-90 z-10"></div>

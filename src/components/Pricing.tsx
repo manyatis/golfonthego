@@ -1,9 +1,6 @@
 'use client'
 
-import { useState } from 'react'
-
 export default function Pricing() {
-  const [selectedPackage, setSelectedPackage] = useState(1)
 
   const packages = [
     {
@@ -97,7 +94,6 @@ export default function Pricing() {
                   ? 'bg-golf-green text-white shadow-2xl transform scale-105'
                   : 'bg-white border-2 border-gray-200 hover:border-golf-light-green'
               }`}
-              onMouseEnter={() => setSelectedPackage(pkg.id)}
             >
               {pkg.popular && (
                 <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 z-10">
@@ -169,8 +165,8 @@ export default function Pricing() {
             Every Event is Unique
           </p>
           <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
-            These are starting prices. During your consultation call, we'll discuss your specific needs
-            and create a custom package that's perfect for your event.
+            These are starting prices. During your consultation call, we&apos;ll discuss your specific needs
+            and create a custom package that&apos;s perfect for your event.
           </p>
           <a href="#contact" className="bg-golf-green text-white px-8 py-3 rounded-full font-bold hover:bg-golf-light-green transition-colors inline-block">
             Schedule Your Consultation →

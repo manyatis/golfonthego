@@ -87,7 +87,7 @@ export default function Features() {
               <p className="text-5xl font-bold text-golf-cream mb-2">100%</p>
               <p className="text-xl">Satisfaction Guaranteed</p>
               <p className="mt-4 text-sm opacity-90">
-                If you're not completely satisfied, we'll make it right
+                If you&apos;re not completely satisfied, we&apos;ll make it right
               </p>
             </div>
           </div>
